@@ -4,6 +4,6 @@ from translate import Translator
 s = Translator(from_lang="english", to_lang="pt-br")
 
 #Traduzindo texto
-res = s.translate(input("Digite o texto a ser traduzido: "))
+res = s.translate(input("Input your text here:  "))
 #Imprimindo texto
 print(res)
